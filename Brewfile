@@ -17,6 +17,8 @@ brew "docker-compose"
 brew "exa"
 # Distributed revision control system
 brew "git"
+# Enable transparent encryption/decryption of files in a git repo
+brew "git-crypt"
 # GNU Pretty Good Privacy (PGP) package
 brew "gnupg"
 # Like cURL, but for gRPC
