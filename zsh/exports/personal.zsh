@@ -1,0 +1,1 @@
+export DEVELOPER_WORKSPACE="$HOME/Documents/Code/Personal/"

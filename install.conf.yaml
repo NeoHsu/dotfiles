@@ -4,3 +4,12 @@
 
 - clean: ['~']
 
+- link:
+    ~/.gitrc: gitrc
+    ~/.gitconfig: gitrc/global/gitconfig
+    ~/.p10k.zsh: zsh/themes/p10k.zsh
+    ~/.tmux.conf: tmux/tmux.conf
+    ~/.zsh: zsh
+    ~/.zsh_plugins: zsh/zsh_plugins
+    ~/.zshrc: zsh/zshrc
+    ~/Brewfile: Brewfile
