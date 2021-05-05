@@ -29,4 +29,4 @@ autoload -Uz compinit
 compinit
 
 # include zsh config
-for f ($HOME/.zsh/config/**/*(N.))  . $f
+for f ($HOME/.zsh/**/*.zsh(N.)) source $f
