@@ -13,3 +13,4 @@
     ~/.zsh_plugins: zsh/zsh_plugins
     ~/.zshrc: zsh/zshrc
     ~/Brewfile: Brewfile
+    ~/.ssh: ssh
