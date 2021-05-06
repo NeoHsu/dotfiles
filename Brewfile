@@ -15,6 +15,10 @@ brew "diff-so-fancy"
 brew "docker-compose"
 # Modern replacement for 'ls'
 brew "exa"
+# Simple, fast and user-friendly alternative to find
+brew "fd"
+# Command-line fuzzy finder written in Go
+brew "fzf"
 # Distributed revision control system
 brew "git"
 # Enable transparent encryption/decryption of files in a git repo
@@ -37,10 +41,16 @@ brew "protoc-gen-go"
 brew "protoc-gen-go-grpc"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
+# Search tool like grep and The Silver Searcher
+brew "ripgrep"
+# Simplified and community-driven man pages
+brew "tldr"
 # Terminal multiplexer
 brew "tmux"
 # Internet file retriever
 brew "wget"
+# Show the current WiFi network password
+brew "wifi-password"
 # Yet Another Dotfiles Manager
 brew "yadm"
 # UNIX shell (command interpreter)
@@ -70,7 +80,5 @@ cask "spotify"
 cask "tableplus"
 # Messaging app with a focus on speed and security
 cask "telegram"
-# Configurable document editor that supports Markdown
-cask "typora"
 # Open-source code editor
 cask "visual-studio-code"
