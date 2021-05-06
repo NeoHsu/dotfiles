@@ -5,3 +5,4 @@ ssh/github.pub
 ssh/known_hosts
 ssh/txone
 ssh/txone.pub
+zsh/exports/work/txone.zsh
