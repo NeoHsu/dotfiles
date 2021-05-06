@@ -1,5 +1,5 @@
 [includeIf "gitdir:~/Documents/Code/Work/TXone/"]
-  	path = ~/.gitrc/work/txone/gitconfig
+  	path = ~/.gitrc/work/txone.gitconfig
 [includeIf "gitdir:~/Documents/Code/Personal/"]
   	path = ~/.gitrc/personal/gitconfig
 [includeIf "gitdir:~/.local/share/yadm/repo.git"]
