@@ -12,3 +12,6 @@ export PATH="$HOME/go/bin:$PATH"
 
 # GPG
 export GPG_TTY=$(tty)
+
+# asdf
+export ASDF_DATA_DIR="$HOME/.asdf_data"
