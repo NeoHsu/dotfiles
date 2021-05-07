@@ -16,3 +16,4 @@
     ~/.ssh: ssh
     ~/.asdf: asdf
     ~/.tool-versions: tool-versions
+    ~/.git-czrc: git-czrc.json

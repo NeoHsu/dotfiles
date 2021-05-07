@@ -2,6 +2,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
+tap "lintingzhen/tap"
 tap "msoap/tools"
 # Shell plugin manager
 brew "antibody"
@@ -53,6 +54,8 @@ brew "wget"
 brew "wifi-password"
 # UNIX shell (command interpreter)
 brew "zsh"
+# The commitizen command line utility, without nodejs.
+brew "lintingzhen/tap/commitizen-go"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # GPU-accelerated terminal emulator
