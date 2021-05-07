@@ -7,6 +7,10 @@ tap "msoap/tools"
 brew "antibody"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
+# GNU Pretty Good Privacy (PGP) package
+brew "gnupg"
+# Safely store secrets in Git/Mercurial/Subversion
+brew "blackbox"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Good-lookin' diffs with diff-highlight and more
@@ -21,10 +25,6 @@ brew "fd"
 brew "fzf"
 # Distributed revision control system
 brew "git"
-# Enable transparent encryption/decryption of files in a git repo
-brew "git-crypt"
-# GNU Pretty Good Privacy (PGP) package
-brew "gnupg"
 # Like cURL, but for gRPC
 brew "grpcurl"
 # Improved top (interactive process viewer)
@@ -51,8 +51,6 @@ brew "tmux"
 brew "wget"
 # Show the current WiFi network password
 brew "wifi-password"
-# Yet Another Dotfiles Manager
-brew "yadm"
 # UNIX shell (command interpreter)
 brew "zsh"
 # Password manager that keeps all passwords secure behind one password
