@@ -5,7 +5,7 @@
 /ssh/config
 /ssh/github
 /ssh/github.pub
-/ssh/known_hosts
 /ssh/txone
 /ssh/txone.pub
+/ssh/known_hosts
 /zsh/exports/work/txone.zsh
