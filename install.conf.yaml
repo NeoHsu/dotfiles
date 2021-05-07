@@ -14,3 +14,5 @@
     ~/.zshrc: zsh/zshrc
     ~/Brewfile: Brewfile
     ~/.ssh: ssh
+    ~/.asdf: asdf
+    ~/.tool-versions: tool-versions
