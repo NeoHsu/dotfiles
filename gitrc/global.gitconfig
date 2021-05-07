@@ -2,8 +2,6 @@
   	path = ~/.gitrc/work/txone.gitconfig
 [includeIf "gitdir:~/Documents/Code/Personal/"]
   	path = ~/.gitrc/personal.gitconfig
-[includeIf "gitdir:~/.local/share/yadm/repo.git"]
-	path = ~/.gitrc/personal.gitconfig
 [core]
 	pager = diff-so-fancy | less --tabs=4 -RFX
 	editor = nvim
