@@ -12,6 +12,9 @@ antibody bundle < $HOME/.zsh_plugins
 # include zsh config
 for f ($HOME/.zsh/**/*.zsh(N.)) source $f
 
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
 # asdf
 source $HOME/.asdf/asdf.sh
 
@@ -26,6 +29,3 @@ fi
 # init functions completions from FPATH
 autoload -Uz compinit
 compinit
-
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

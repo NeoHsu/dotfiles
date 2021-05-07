@@ -20,7 +20,7 @@
 					},
 					{
 						"name": "style",
-						"desc": "style: Changes that do not affect the meaning of the code\n            (white-space, formatting, missing semi-colons, etc)"
+						"desc": "style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)"
 					},
 					{
 						"name": "refactor",
@@ -36,7 +36,7 @@
 					},
 					{
 						"name": "chore",
-						"desc": "chore: Changes to the build process or auxiliary tools\n            and libraries such as documentation generation"
+						"desc": "chore: Changes to the build process or auxiliary tools git and libraries such as documentation generation"
 					},
 					{
 						"name": "revert",
