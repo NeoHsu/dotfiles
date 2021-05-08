@@ -1,7 +1,2 @@
 gitrc/work/txone.gitconfig
-ssh/config
-ssh/github
-ssh/github.pub
-ssh/txone
-ssh/txone.pub
 zsh/exports/work/txone.zsh

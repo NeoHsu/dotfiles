@@ -1,11 +1,4 @@
 /.blackbox/pubring.gpg~
 /.blackbox/pubring.kbx~
 /.blackbox/secring.gpg
-/gitrc/work/txone.gitconfig
-/ssh/config
-/ssh/github
-/ssh/github.pub
-/ssh/txone
-/ssh/txone.pub
-/ssh/known_hosts
-/zsh/exports/work/txone.zsh
+/**/work/*
