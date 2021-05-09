@@ -6,6 +6,8 @@ tap "lintingzhen/tap"
 tap "msoap/tools"
 # Shell plugin manager
 brew "antibody"
+# Shell extension to jump to frequently used directories
+brew "autojump"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # GNU Pretty Good Privacy (PGP) package
@@ -44,6 +46,8 @@ brew "protoc-gen-go-grpc"
 brew "reattach-to-user-namespace"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Text interface for Git repositories
+brew "tig"
 # Simplified and community-driven man pages
 brew "tldr"
 # Terminal multiplexer
