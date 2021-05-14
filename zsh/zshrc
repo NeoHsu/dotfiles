@@ -7,16 +7,19 @@ fi
 
 # antibody
 source <(antibody init)
-antibody bundle < $HOME/.zsh_plugins
+antibody bundle < "$HOME"/.zsh_plugins
 
 # include zsh config
-for f ($HOME/.zsh/**/*.zsh(N.)) source $f
+for file in "$HOME"/.zsh/**/*.zsh
+do
+  source "$file"
+done
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+[[ ! -f "$HOME"/.p10k.zsh ]] || source "$HOME"/.p10k.zsh
 
 # asdf
-source $HOME/.asdf/asdf.sh
+[[ ! -f "$HOME"/.asdf/asdf.sh ]] || source "$HOME"/.asdf/asdf.sh
 
 # asdf functions completions
 FPATH=$ASDF_DIR/completions:$FPATH
@@ -27,7 +30,7 @@ if type brew &>/dev/null; then
 fi
 
 # autojump
-[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+[ -f /usr/local/etc/profile.d/autojump.sh ] && source /usr/local/etc/profile.d/autojump.sh
 
 # init functions completions from FPATH
 autoload -Uz compinit
@@ -36,8 +39,8 @@ compinit
 # User configuration
 # Always work in a tmux session if tmux is installed
 # https://github.com/chrishunt/dot-files/blob/master/.zshrc
-if which tmux 2>&1 >/dev/null; then
-  if [ $TERM != "screen-256color" ] && [  $TERM != "screen" ]; then
+if which tmux > /dev/null 2>&1;  then
+  if [ "$TERM" != "screen-256color" ] && [  "$TERM" != "screen" ]; then
     tmux attach -t workspace || tmux new -s workspace; exit
   fi
 fi
