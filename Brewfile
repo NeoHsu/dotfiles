@@ -54,6 +54,8 @@ brew "tldr"
 brew "tmux"
 # Internet file retriever
 brew "wget"
+# Homebrew, but with Docker images
+brew "whalebrew"
 # Show the current WiFi network password
 brew "wifi-password"
 # UNIX shell (command interpreter)
@@ -87,3 +89,4 @@ cask "tableplus"
 cask "telegram"
 # Open-source code editor
 cask "visual-studio-code"
+whalebrew "whalebrew/hugo"
