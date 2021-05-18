@@ -1,3 +1,4 @@
+tap "buo/cask-upgrade"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -75,6 +76,8 @@ cask "cyberduck"
 # App to build and share containerized applications and microservices
 cask "docker"
 cask "microsoft-teams"
+# Beautiful telnet/ssh client optimized for Mandarin BBS
+cask "nally"
 # App to write, plan, collaborate, and get organized
 cask "notion"
 # Collaboration platform for API development
