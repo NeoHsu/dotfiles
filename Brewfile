@@ -92,4 +92,3 @@ cask "tableplus"
 cask "telegram"
 # Open-source code editor
 cask "visual-studio-code"
-whalebrew "whalebrew/hugo"
