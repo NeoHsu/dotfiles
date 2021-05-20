@@ -34,4 +34,4 @@ alias grep="rg"
 alias brew-backup="brew bundle dump --describe --force && brew bundle --force cleanup"
 
 # hugo
-alias hugo="docker run --rm -it -v  ${DEVELOPER_BLOG}:/src -p 1313:1313 klakegg/hugo:0.83.1"
+alias hugo="docker run --rm -it -v  ${DEVELOPER_BLOG}:/src -p 1313:1313 klakegg/hugo:0.83.1-busybox"
