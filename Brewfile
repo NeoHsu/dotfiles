@@ -53,6 +53,8 @@ brew "tig"
 brew "tldr"
 # Terminal multiplexer
 brew "tmux"
+# Display directories as trees (with optional color/HTML output)
+brew "tree"
 # Internet file retriever
 brew "wget"
 # Homebrew, but with Docker images
