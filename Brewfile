@@ -47,6 +47,10 @@ brew "protoc-gen-go-grpc"
 brew "reattach-to-user-namespace"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
+# Static analysis and lint tool, for (ba)sh scripts
+brew "shellcheck"
+# Autoformat shell script source code
+brew "shfmt"
 # Text interface for Git repositories
 brew "tig"
 # Simplified and community-driven man pages
@@ -82,6 +86,7 @@ cask "microsoft-teams"
 cask "nally"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+cask "pomodone"
 # Collaboration platform for API development
 cask "postman"
 # Tool to manage the size and position of windows
