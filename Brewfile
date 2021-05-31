@@ -81,6 +81,7 @@ cask "brave-browser"
 cask "cyberduck"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Beautiful telnet/ssh client optimized for Mandarin BBS
 cask "nally"
