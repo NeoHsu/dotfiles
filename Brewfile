@@ -4,7 +4,6 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "lintingzhen/tap"
-tap "msoap/tools"
 # Shell plugin manager
 brew "antibody"
 # Shell extension to jump to frequently used directories
@@ -29,10 +28,14 @@ brew "fd"
 brew "fzf"
 # Distributed revision control system
 brew "git"
+# Image processing tools collection
+brew "graphicsmagick"
 # Like cURL, but for gRPC
 brew "grpcurl"
 # Improved top (interactive process viewer)
 brew "htop"
+# Lightweight and flexible command-line JSON processor
+brew "jq"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Pinentry for GPG on Mac
