@@ -20,6 +20,8 @@ brew "curl"
 brew "diff-so-fancy"
 # Isolated development environments using Docker
 brew "docker-compose"
+# Disk Usage/Free Utility - a better 'df' alternative
+brew "duf"
 # More intuitive version of du in rust
 brew "dust"
 # Modern replacement for 'ls'
