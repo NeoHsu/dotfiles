@@ -58,6 +58,8 @@ brew "ripgrep"
 brew "shellcheck"
 # Autoformat shell script source code
 brew "shfmt"
+# Code-search similar to ack
+brew "the_silver_searcher"
 # Text interface for Git repositories
 brew "tig"
 # Simplified and community-driven man pages
