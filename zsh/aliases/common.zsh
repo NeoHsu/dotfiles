@@ -30,6 +30,9 @@ alias cat="bat"
 # best grep
 alias grep="rg"
 
+# best du
+alias du="dust"
+
 # homebrew
 alias brew-backup="brew bundle dump --describe --force && brew bundle --force cleanup"
 

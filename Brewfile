@@ -20,6 +20,8 @@ brew "curl"
 brew "diff-so-fancy"
 # Isolated development environments using Docker
 brew "docker-compose"
+# More intuitive version of du in rust
+brew "dust"
 # Modern replacement for 'ls'
 brew "exa"
 # Simple, fast and user-friendly alternative to find
