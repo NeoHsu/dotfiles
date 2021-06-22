@@ -14,6 +14,8 @@ brew "bat"
 brew "gnupg"
 # Safely store secrets in Git/Mercurial/Subversion
 brew "blackbox"
+# Human-friendly and fast alternative to cut and (sometimes) awk
+brew "choose-rust"
 # Get a file from an HTTP, HTTPS or FTP server
 brew "curl"
 # Good-lookin' diffs with diff-highlight and more
