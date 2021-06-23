@@ -40,6 +40,8 @@ brew "graphicsmagick"
 brew "grpcurl"
 # Improved top (interactive process viewer)
 brew "htop"
+# User-friendly cURL replacement (command-line HTTP client)
+brew "httpie"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Ambitious Vim-fork focused on extensibility and agility
