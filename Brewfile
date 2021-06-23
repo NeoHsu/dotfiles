@@ -78,6 +78,8 @@ brew "wget"
 brew "whalebrew"
 # Show the current WiFi network password
 brew "wifi-password"
+# Friendly and fast tool for sending HTTP requests
+brew "xh"
 # UNIX shell (command interpreter)
 brew "zsh"
 # The commitizen command line utility, without nodejs.
