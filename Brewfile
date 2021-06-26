@@ -22,6 +22,8 @@ brew "curl"
 brew "diff-so-fancy"
 # Isolated development environments using Docker
 brew "docker-compose"
+# Command-line DNS client
+brew "dog"
 # Disk Usage/Free Utility - a better 'df' alternative
 brew "duf"
 # More intuitive version of du in rust
