@@ -48,6 +48,8 @@ brew "jq"
 brew "neovim"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Modern replacement for ps written by Rust
+brew "procs"
 # Protocol buffers (Google's data interchange format)
 brew "protobuf"
 # Go support for Google's protocol buffers
