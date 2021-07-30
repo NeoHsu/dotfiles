@@ -24,8 +24,6 @@ brew "diff-so-fancy"
 brew "docker-compose"
 # Command-line DNS client
 brew "dog"
-# Disk Usage/Free Utility - a better 'df' alternative
-brew "duf"
 # More intuitive version of du in rust
 brew "dust"
 # Modern replacement for 'ls'
@@ -34,6 +32,8 @@ brew "exa"
 brew "fd"
 # Command-line fuzzy finder written in Go
 brew "fzf"
+# GNU awk utility
+brew "gawk"
 # Distributed revision control system
 brew "git"
 # Image processing tools collection
@@ -58,6 +58,8 @@ brew "protobuf"
 brew "protoc-gen-go"
 # Protoc plugin that generates code for gRPC-Go clients
 brew "protoc-gen-go-grpc"
+# Emulator for x86 and PowerPC
+brew "qemu"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
 # Search tool like grep and The Silver Searcher
@@ -82,8 +84,6 @@ brew "wget"
 brew "whalebrew"
 # Show the current WiFi network password
 brew "wifi-password"
-# Friendly and fast tool for sending HTTP requests
-brew "xh"
 # UNIX shell (command interpreter)
 brew "zsh"
 # The commitizen command line utility, without nodejs.
@@ -117,5 +117,7 @@ cask "spotify"
 cask "tableplus"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Free and open-source hosted hypervisor for x86 virtualization
+cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
