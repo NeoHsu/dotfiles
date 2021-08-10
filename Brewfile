@@ -94,6 +94,8 @@ cask "1password"
 cask "alacritty"
 # Application uninstaller
 cask "appcleaner"
+# Open-source KVM software
+cask "barrier"
 # Web browser focusing on privacy
 cask "brave-browser"
 # Server and cloud storage browser
