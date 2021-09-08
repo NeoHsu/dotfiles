@@ -87,8 +87,6 @@ brew "whalebrew"
 brew "wifi-password"
 # UNIX shell (command interpreter)
 brew "zsh"
-# Consul
-brew "hashicorp/tap/consul"
 # The commitizen command line utility, without nodejs.
 brew "lintingzhen/tap/commitizen-go"
 # Password manager that keeps all passwords secure behind one password
