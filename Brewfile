@@ -1,3 +1,4 @@
+tap "bufbuild/buf"
 tap "buo/cask-upgrade"
 tap "hashicorp/tap"
 tap "homebrew/bundle"
@@ -5,6 +6,9 @@ tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
 tap "lintingzhen/tap"
+tap "popcorn-official/popcorn-desktop", "https://github.com/popcorn-official/popcorn-desktop.git"
+# Run your GitHub Actions locally 🚀
+brew "act"
 # Shell plugin manager
 brew "antibody"
 # Shell extension to jump to frequently used directories
@@ -45,12 +49,18 @@ brew "grpcurl"
 brew "htop"
 # User-friendly cURL replacement (command-line HTTP client)
 brew "httpie"
+# Toolkit for embedding hypervisor capabilities in your application
+brew "hyperkit"
 # Lightweight and flexible command-line JSON processor
 brew "jq"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Pinentry for GPG on Mac
 brew "pinentry-mac"
+# Emulator for x86 and PowerPC
+brew "qemu"
+# Tool for managing OCI containers and pods
+brew "podman"
 # Modern replacement for ps written by Rust
 brew "procs"
 # Protocol buffers (Google's data interchange format)
@@ -59,8 +69,6 @@ brew "protobuf"
 brew "protoc-gen-go"
 # Protoc plugin that generates code for gRPC-Go clients
 brew "protoc-gen-go-grpc"
-# Emulator for x86 and PowerPC
-brew "qemu"
 # Reattach process (e.g., tmux) to background
 brew "reattach-to-user-namespace"
 # Search tool like grep and The Silver Searcher
@@ -69,6 +77,8 @@ brew "ripgrep"
 brew "shellcheck"
 # Autoformat shell script source code
 brew "shfmt"
+# Tool to build, change, and version infrastructure
+brew "terraform"
 # Code-search similar to ack
 brew "the_silver_searcher"
 # Text interface for Git repositories
@@ -87,12 +97,16 @@ brew "whalebrew"
 brew "wifi-password"
 # UNIX shell (command interpreter)
 brew "zsh"
+# A new way of working with Protocol Buffers.
+brew "bufbuild/buf/buf"
 # The commitizen command line utility, without nodejs.
 brew "lintingzhen/tap/commitizen-go"
 # Password manager that keeps all passwords secure behind one password
 cask "1password"
 # GPU-accelerated terminal emulator
 cask "alacritty"
+# Tools for building Android applications
+cask "android-studio"
 # Application uninstaller
 cask "appcleaner"
 # Web browser focusing on privacy
@@ -118,6 +132,8 @@ cask "spotify"
 cask "tableplus"
 # Messaging app with a focus on speed and security
 cask "telegram"
+# Unpacks archive files
+cask "the-unarchiver"
 # Free and open-source hosted hypervisor for x86 virtualization
 cask "virtualbox"
 # Open-source code editor
