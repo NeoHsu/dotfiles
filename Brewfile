@@ -41,6 +41,8 @@ brew "fzf"
 brew "gawk"
 # Distributed revision control system
 brew "git"
+# Database migrations CLI tool
+brew "golang-migrate"
 # Image processing tools collection
 brew "graphicsmagick"
 # Like cURL, but for gRPC
