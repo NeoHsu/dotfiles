@@ -123,6 +123,8 @@ cask "microsoft-teams"
 cask "nally"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Knowledge base that works on top of a local folder of plain text Markdown files
+cask "obsidian"
 cask "pomodone"
 # Collaboration platform for API development
 cask "postman"
@@ -136,7 +138,7 @@ cask "tableplus"
 cask "telegram"
 # Unpacks archive files
 cask "the-unarchiver"
-# Free and open-source hosted hypervisor for x86 virtualization
+# Virtualizer for x86 hardware
 cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
