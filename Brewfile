@@ -142,3 +142,5 @@ cask "the-unarchiver"
 cask "virtualbox"
 # Open-source code editor
 cask "visual-studio-code"
+# Create, manage, and run virtual machines
+cask "vmware-fusion"
