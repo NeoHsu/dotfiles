@@ -37,7 +37,7 @@ alias du="dust"
 alias brew-backup="brew bundle dump --describe --force && brew bundle --force cleanup"
 
 # hugo
-alias hugo="docker run --rm -it -v  ${DEVELOPER_BLOG}:/src -p 1313:1313 klakegg/hugo:0.83.1-busybox"
+alias hugo='docker run --rm -it -v ${DEVELOPER_BLOG}:/src -p 1313:1313 klakegg/hugo:0.83.1-busybox'
 
 # journal-parse
-alias journal-parse="docker run -v $(pwd):/tmp/journal --rm centos/systemd journalctl --directory=/tmp/journal --no-pager > journal.log"
+alias journal-parse='docker run -v $(pwd):/tmp/journal --rm centos/systemd journalctl --directory=/tmp/journal --no-pager > output-journal.log'
