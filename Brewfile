@@ -91,6 +91,8 @@ brew "tldr"
 brew "tmux"
 # Display directories as trees (with optional color/HTML output)
 brew "tree"
+# Bash completion for Vagrant
+brew "vagrant-completion"
 # Internet file retriever
 brew "wget"
 # Homebrew, but with Docker images
@@ -125,6 +127,8 @@ cask "nally"
 cask "notion"
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Desktop virtualization software
+cask "parallels"
 cask "pomodone"
 # Collaboration platform for API development
 cask "postman"
@@ -138,6 +142,8 @@ cask "tableplus"
 cask "telegram"
 # Unpacks archive files
 cask "the-unarchiver"
+# Development environment
+cask "vagrant"
 # Virtualizer for x86 hardware
 cask "virtualbox"
 # Open-source code editor
