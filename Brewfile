@@ -26,7 +26,7 @@ brew "curl"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # Isolated development environments using Docker
-brew "docker-compose"
+brew "docker-compose", link: false
 # Command-line DNS client
 brew "dog"
 # More intuitive version of du in rust
@@ -41,6 +41,8 @@ brew "fzf"
 brew "gawk"
 # Distributed revision control system
 brew "git"
+# Git extension for versioning large files
+brew "git-lfs"
 # Database migrations CLI tool
 brew "golang-migrate"
 # Image processing tools collection
