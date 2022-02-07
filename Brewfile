@@ -26,7 +26,7 @@ brew "curl"
 # Good-lookin' diffs with diff-highlight and more
 brew "diff-so-fancy"
 # Isolated development environments using Docker
-brew "docker-compose", link: false
+brew "docker-compose"
 # Command-line DNS client
 brew "dog"
 # More intuitive version of du in rust
