@@ -121,6 +121,8 @@ cask "brave-browser"
 cask "cyberduck"
 # App to build and share containerized applications and microservices
 cask "docker"
+# Privacy-first, open-source platform for knowledge sharing and management
+cask "logseq"
 # Meet, chat, call, and collaborate in just one place
 cask "microsoft-teams"
 # Beautiful telnet/ssh client optimized for Mandarin BBS
